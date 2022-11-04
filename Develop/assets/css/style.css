@@ -9,7 +9,6 @@ body {
 }
 
 /* -- BEGINNING OF HEADER -- */
-
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,8 +38,8 @@ header h1 .seo {
     display: inline-block;
     margin-left: 25px;
 }
-/* ----- END OF HEADER ---- */
 
+/* ----ANCHORS---- */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +49,7 @@ p {
     font-size: 16px;
 }
 
+/* ----THIS IS THE MAIN BANNER---- */
 .hero {
     height: 800px;
     width: 100%;
@@ -77,6 +77,7 @@ p {
 
 .benefits {
     margin-right: 20px;
+    /* margin-bottom: 70px; */
     padding: 20px;
     clear: both;
     float: right;
@@ -84,9 +85,10 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: white;
 }
 
-.benefit-lead {
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,22 +101,31 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+/* CONSOLIDATED CLASSES, ASSIGNED ID TO HEADERS TO REDUCE REDUNDANT CODE */
+#benefit-header  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* .benefit-lead h3 {
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
 .benefit-lead img {
     display: block;
